@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    color: white;
+}
+button {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+#segundos.active, #minutos.active, #horas.active {
+    transition: 0.5s;
+    color: white;
+    border: 0px;
+    background-color: transparent;
+    text-align: center;
+    margin: 5px 0px 10px 0px;
+}
